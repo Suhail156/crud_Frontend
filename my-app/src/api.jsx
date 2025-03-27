@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3520",
+  baseURL: "https://crud-backend-1fuk.onrender.com",
 });
 
 export default api;
